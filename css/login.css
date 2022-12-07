@@ -1,0 +1,92 @@
+/* Paleta de Cores: */
+
+:root {
+	--azul: #325165;
+	--amarelo:#e8cb49;
+	--preto: #1b1b1d;
+	--cinza-escuro: #686369;
+	--cinza-claro: #e0dadc; 	
+}
+
+
+body {
+	background-color: var(--cinza-claro);
+
+}
+
+
+.login-box {
+  
+  width: 100%;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 320px;
+}
+
+.imagem-logo {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label {
+	margin-top: 1em;
+}
+
+input {
+	margin-top: 1em;
+}
+
+
+.btn-primary {
+	background-color: var(--azul);
+	color: var(--cinza-claro);
+	width: 100%;
+	margin-top: 2em;
+	border-color: var(--azul);
+	transition: 300ms;
+}
+
+.btn-primary:hover {
+	background-color: var(--azul);
+	border-color: var(--azul);
+	filter: brightness(0.8);
+	font-weight: bold;	
+	color: white;
+}
+
+.redefinir-senha {
+	margin-top: 1em ;
+	text-align: center;
+}
+
+
+.btn-warning {
+	width: 50%;
+	margin: 1em 0 1em 0;
+	background-color: var(--amarelo);
+	border-color: var(--amarelo);
+	color: var(--cinza-escuro);
+	transition: 300ms;
+
+}
+
+.btn-warning:hover {
+	font-weight: bold;
+	width: 60%;
+	filter: brightness(0.8)
+}
+
+@media only screen and (max-width:480px) {
+	
+	body {
+		background-color: white;
+	}
+
+	.login-box {
+		box-shadow: none !important;
+	}
+}

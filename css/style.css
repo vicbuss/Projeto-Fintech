@@ -1,0 +1,288 @@
+/* Paleta de Cores: */
+
+:root {
+  --azul: #325165;
+  --amarelo:#e8cb49;
+  --preto: #1b1b1d;
+  --cinza-escuro: #686369;
+  --cinza-claro: #e0dadc;   
+}
+
+
+body {
+  color: var(--preto);
+
+}
+
+a {
+  color: var(--preto);
+  text-decoration: none;
+}
+
+header {
+  background: var(--cinza-claro);
+}
+
+.header-desktop {
+  background: var(--cinza-claro);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1
+}
+
+
+.logo-texto {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  margin: 1em 0 1em 0;
+  color: var(--preto);
+}
+
+
+.bi-person-circle {
+  font-size: 1.25rem;
+}
+
+.ola-usuario {
+  padding-left: 1em ;
+}
+
+
+.navegacao-direita .bi-box-arrow-right {
+  position: relative;
+  top: 0.5em;
+}
+
+.navegacao-direita .bi-person-circle {
+  position: relative;
+  top: 0.2em;
+}
+
+main {
+  background: #FEFEFE;
+}
+
+
+.aside {
+  background: var(--cinza-claro);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+
+}
+
+
+.menu-aside {
+  background: var(--cinza-claro);
+  padding-top: 7.5em; 
+  height: 100%;  
+}
+
+.menu-aside ul {
+  list-style: none;
+}
+
+.botao-adicionar-aside {
+  background-color: var(--azul);
+  color: white;
+  font-size: 1em;
+  margin-bottom: 3.5em;
+  width: 7em;
+  border-color: var(--azul);
+  border-radius: 1em;
+}
+
+.botao-adicionar-aside:hover {
+  background-color: var(--azul);
+  border-color: var(--azul);
+  filter: brightness(0.8);
+  font-weight: bold;  
+  color: white;
+}
+
+.botao-adicionar-aside:active {
+  background-color: var(--azul);
+  border-color: var(--azul);
+  filter: brightness(0.8);
+  font-weight: bold;  
+  color: white; 
+}
+
+.botao-adicionar-aside i {
+  position: relative;
+  right: 1.1em;
+}
+
+.botao-adicionar-aside .novo {
+  position: relative;
+  right: 0.5em;
+}
+
+.menu-aside li {
+  padding-bottom: 1.5em;
+  font-size: 1em;
+}
+
+.menu-aside i {
+  padding-right: 0.5em;
+}
+
+
+.titulo-sessao-desktop {
+  width: 87.5%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: var(--preto);
+}
+
+.saldo-do-periodo, .ultimas-trasacoes, .investimentos {
+  
+  width: 87.5%;
+  margin: auto;
+  margin-bottom: 2em !important;
+  padding: 1em;
+  position: relative;
+  bottom: 2em;
+}
+
+.botao-periodo {
+  border: none;
+  background: white;
+  color: var(--preto);
+}
+
+h3 {
+  font-size: 1em;
+  color: var(--azul);
+  font-weight: bold;
+
+}
+
+.tela-principal .bi-arrow-up-circle {
+  color: green;
+}
+
+.tela-principal .bi-arrow-down-circle {
+  color: red;
+}
+
+
+.ultimas-trasacoes i, .investimentos i {
+  font-size: 1.7em;
+  position: relative;
+  top: 0.5em;
+}
+
+.categoria-transacao, .data-transacao, .etiqueta-investimento {
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+
+.valor-transacao, .valor-rentabilidade {
+  font-size: 0.8em
+}
+
+footer {
+  background: var(--cinza-claro);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.menu-mobile i {
+  font-size: 1.7rem;
+  position: relative;
+  left: 15% !important;
+}
+
+.descricao-meio {
+  position: relative;
+  right: 0.5em;
+}
+
+.botao-adicionar-footer {
+  border-radius: 50%;
+  height: 90%;
+  position: relative;
+  bottom: 2rem;
+  right: 1.2rem;
+  font-size: 2.25rem;
+  padding-left: 1.5rem ;
+  padding-right: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-style: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+  background-color: var(--azul);  
+}
+
+
+
+@media only screen and (min-width:1150px) {
+
+.aside {
+  width: 18%;
+}
+
+.menu-aside li {
+  font-size: 1.2em;
+}
+
+.botao-adicionar-aside {
+  font-size: 1.1em;
+  width: 8em;
+
+}
+
+}
+
+
+@media only screen and (min-width:768px) {
+
+  .tela-principal {
+    font-size: 120%;
+  }
+
+  .botao-periodo {
+    background: var(--azul);
+    color: white;
+    font-size: 1em;
+    width: 20%;
+    border-radius: 1em;
+  }
+
+  .botao-periodo:hover {
+    color: white;
+  }
+
+  .saldo-do-periodo, .ultimas-trasacoes, .investimentos {
+    bottom: -2em;
+    margin-top: 1em;
+
+  }
+
+  .tela-principal {
+    margin-top: 7em;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .header-desktop {
+    display: none;
+  }
+
+  
+  .titulo-sessao-desktop {
+    display: none;
+  }
+
+  .aside {
+    display: none;
+  }
+} 
