@@ -1,0 +1,21 @@
+TO DO:
+
+MAIN
+	- Implementar Menu no Footer Mobile
+	- Implementar Breadcrumbs no Aside Desktop
+	- Linkar Tela Gastos
+	- Linkar Tela Inserir Gastos
+	- Linkar Tela Cadastrar Usuário
+
+TELA GASTOS
+	- Estrutura Mobile
+	- Ajustes Desktop
+
+TELA INSERIR GASTOS
+	- Estrutura Mobile
+	- Ajustes Desktop
+
+TELA CADASTRAR USUARIO
+	- Wireframing
+	- Estrutura Mobile
+	- Ajustes Desktop

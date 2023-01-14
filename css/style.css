@@ -42,7 +42,7 @@ header {
 }
 
 
-.bi-person-circle {
+.bi-person-circle, .sair-mobile {
   font-size: 1.25rem;
 }
 
@@ -218,7 +218,8 @@ footer {
   padding-bottom: 0.75rem;
   border-style: none;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
-  background-color: var(--azul);  
+  background-color: var(--azul);
+  color: white;  
 }
 
 
