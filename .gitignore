@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,sublimetext
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,sublimetext
+# Created by https://www.toptal.com/developers/gitignore/api/windows,sublimetext,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,sublimetext,visualstudiocode
 
 ### SublimeText ###
 # Cache files for Sublime Text
@@ -34,6 +34,25 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -60,4 +79,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,sublimetext
+# End of https://www.toptal.com/developers/gitignore/api/windows,sublimetext,visualstudiocode
