@@ -129,97 +129,96 @@
 						<h1 class="titulo-sessao-desktop">Dashboard</h1>
 						<!--Saldo do mês -->
 						<div class="saldo-do-periodo shadow-lg mb-5 p-3 bg-white rounded">
+							<div class="dropdown text-center">
+								<button class="botao-periodo btn dropdown-toggle mb-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+									Período
+								</button>
 
-						<div class="dropdown text-center">
-							  <button class="botao-periodo btn dropdown-toggle mb-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-	    						Período
-	 						 </button>
-
-							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-	    						<li><a class="periodo dropdown-item" href="#">Janeiro</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Fevereiro</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Março</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Abril</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Maio</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Junho</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Julho</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Agosto</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Setembro</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Outubro</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Novembro</a></li>
-	    						<li><a class="periodo dropdown-item" href="#">Dezembro</a></li>
-	 						 </ul>
-						</div>
-						
-						<div class="text-center">
-							<h3>Saldo do mês</h3>
-							<p><strong>R$ XX,XX</strong></p>
-						</div>
-
-						<div class="entrada-saida row justify-content-between text-center">
-							<div class="col-4">
-								<i class="bi bi-arrow-up-circle"></i>
-								<h3 class="d-inline-block">Renda</h3>
-								<p>R$ XX,XX</p>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+									<li><a class="periodo dropdown-item" href="#">Janeiro</a></li>
+									<li><a class="periodo dropdown-item" href="#">Fevereiro</a></li>
+									<li><a class="periodo dropdown-item" href="#">Março</a></li>
+									<li><a class="periodo dropdown-item" href="#">Abril</a></li>
+									<li><a class="periodo dropdown-item" href="#">Maio</a></li>
+									<li><a class="periodo dropdown-item" href="#">Junho</a></li>
+									<li><a class="periodo dropdown-item" href="#">Julho</a></li>
+									<li><a class="periodo dropdown-item" href="#">Agosto</a></li>
+									<li><a class="periodo dropdown-item" href="#">Setembro</a></li>
+									<li><a class="periodo dropdown-item" href="#">Outubro</a></li>
+									<li><a class="periodo dropdown-item" href="#">Novembro</a></li>
+									<li><a class="periodo dropdown-item" href="#">Dezembro</a></li>
+								</ul>
 							</div>
-							<div class="col-4">
-								<i class="bi bi-arrow-down-circle"></i>
-								<h3 class="d-inline-block">Gastos</h3>
-								<p>R$ XX,XX</p>
+							
+							<div class="text-center">
+								<h3>Saldo do mês</h3>
+								<p><strong>R$ XX,XX</strong></p>
 							</div>
-						</div>
+
+							<div class="entrada-saida row justify-content-between text-center">
+								<div class="col-4">
+									<i class="bi bi-arrow-up-circle"></i>
+									<h3 class="d-inline-block">Renda</h3>
+									<p>R$ XX,XX</p>
+								</div>
+								<div class="col-4">
+									<i class="bi bi-arrow-down-circle"></i>
+									<h3 class="d-inline-block">Gastos</h3>
+									<p>R$ XX,XX</p>
+								</div>
+							</div>
 						</div>
 						<!--Últimas transações-->
 						<div class="ultimas-trasacoes shadow-lg p-3 mb-5 bg-white rounded">
-						<h3 class="pb-3">Últimas transações</h3>
-						
-						<div class="row justify-content-around">
-							<div class="col-1">
-								<i class="bi bi-car-front"></i>
-							</div>
-							<div class="col-md-7 col-6">
-								<p class="categoria-transacao d-inline-block">Transporte</p>
-								<p>Uber</p>
+							<h3 class="pb-3">Últimas transações</h3>
+							
+							<div class="row justify-content-around">
+								<div class="col-1">
+									<i class="bi bi-car-front"></i>
+								</div>
+								<div class="col-md-7 col-6">
+									<p class="categoria-transacao d-inline-block">Transporte</p>
+									<p>Uber</p>
+								</div>
+
+								<div class="col-md-3 col-4">
+									<p class="data-transacao">31/10/2022</p>
+									<p class="valor-transacao"><strong>-R$ XX,XX</strong></p>
+								</div>
 							</div>
 
-							<div class="col-md-3 col-4">
-								<p class="data-transacao">31/10/2022</p>
-								<p class="valor-transacao"><strong>-R$ XX,XX</strong></p>
+							<div class="row justify-content-around">
+								<div class="col-1">
+									<i class="bi bi-cash-coin"></i>
+								</div>
+								<div class="col-md-7 col-6">
+									<p class="categoria-transacao d-inline-block">Outras rendas</p>
+									<p>Transferência recebida</p>
+								</div>
+								<div class="col-md-3 col-4">
+									<p class="data-transacao">31/10/2022</p>
+									<p class="valor-transacao"><strong>R$ XX,XX</strong></p>
+								</div>
 							</div>
-						</div>
-
-						<div class="row justify-content-around">
-							<div class="col-1">
-								<i class="bi bi-cash-coin"></i>
-							</div>
-							<div class="col-md-7 col-6">
-								<p class="categoria-transacao d-inline-block">Outras rendas</p>
-								<p>Transferência recebida</p>
-							</div>
-							<div class="col-md-3 col-4">
-								<p class="data-transacao">31/10/2022</p>
-								<p class="valor-transacao"><strong>R$ XX,XX</strong></p>
-							</div>
-						</div>
 						</div>
 						<!--Investimentos-->
 						<div class="investimentos shadow-lg p-3 mb-5 bg-white rounded">
 
-						<h3>Investimentos</h3>
-						
-						<div class="row justify-content-around">
-							<div class="col-1">
-								<i class="bi bi-graph-up-arrow"></i>
+							<h3>Investimentos</h3>
+							
+							<div class="row justify-content-around">
+								<div class="col-1">
+									<i class="bi bi-graph-up-arrow"></i>
+								</div>
+								<div class="col-md-7 col-6">
+									<p class="etiqueta-investimento d-inline-block">Patrimônio</p>
+									<p>R$ XXXX,XX</p>
+								</div>
+								<div class="col-md-3 col-4">
+									<p class="etiqueta-investimento">Rentabilidade</p>
+									<p class="valor-rentabilidade"><strong>XX.XX% a.a</strong></p>
+								</div>
 							</div>
-							<div class="col-md-7 col-6">
-								<p class="etiqueta-investimento d-inline-block">Patrimônio</p>
-								<p>R$ XXXX,XX</p>
-							</div>
-							<div class="col-md-3 col-4">
-								<p class="etiqueta-investimento">Rentabilidade</p>
-								<p class="valor-rentabilidade"><strong>XX.XX% a.a</strong></p>
-							</div>
-						</div>
 						</div>
 					</div>
 				</div>
