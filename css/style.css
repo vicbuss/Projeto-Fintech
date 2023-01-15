@@ -172,12 +172,12 @@ h3 {
   color: red;
 }
 
-
 .ultimas-trasacoes i, .investimentos i {
   font-size: 1.7em;
   position: relative;
   top: 0.5em;
 }
+
 
 .categoria-transacao, .data-transacao, .etiqueta-investimento {
   margin-bottom: 0;
@@ -222,7 +222,30 @@ footer {
   color: white;  
 }
 
+/* Estilos de gastos.html */
 
+.saldo-do-periodo-gastos, .ultimos-gastos {
+  
+  width: 87.5%;
+  margin: auto;
+  margin-bottom: 1em !important;
+  padding: 1em;
+  position: relative;
+  bottom: 2em;
+}
+
+.ultimos-gastos i {
+  font-size: 1.25em;
+  position: relative;
+  top: 0.5em;
+}
+
+/* .icone-categoria-transacoes {
+  font-size: 1.25em !important;
+} */
+
+
+/* Media Query */
 
 @media only screen and (min-width:1150px) {
 
