@@ -279,7 +279,7 @@ footer {
     color: white;
   }
 
-  .saldo-do-periodo, .ultimas-trasacoes, .investimentos {
+  .saldo-do-periodo, .ultimas-trasacoes, .investimentos, .saldo-do-periodo-gastos, .ultimos-gastos {
     bottom: -2em;
     margin-top: 1em;
 

@@ -3,13 +3,13 @@ TO DO:
 MAIN
 	- Implementar Menu no Footer Mobile
 	- Implementar Breadcrumbs no Aside Desktop
-	- Linkar Tela Gastos
+	- Linkar Tela Gastos [ok]
 	- Linkar Tela Inserir Gastos
 	- Linkar Tela Cadastrar Usuário
 
 TELA GASTOS
-	- Estrutura Mobile
-	- Ajustes Desktop
+	- Estrutura Mobile [ok]
+	- Ajustes Desktop [ok]
 
 TELA INSERIR GASTOS
 	- Estrutura Mobile
