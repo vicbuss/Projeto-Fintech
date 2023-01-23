@@ -239,6 +239,10 @@ footer {
   position: static;
 }
 
+.ultimos-gastos .descricao-transacao {
+  font-size: 0.9em;
+}
+
 /* Media Query */
 
 @media only screen and (min-width:1150px) {
