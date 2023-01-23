@@ -234,14 +234,21 @@ footer {
   bottom: 2em;
 }
 
-.ultimos-gastos i {
+.data-transacao {
+  color: #325165;
+}
+
+.fonte-transacoes {
+  font-size: 0.9em;
+}
+/* .ultimos-gastos i {
   font-size: 1em;
   position: static;
 }
 
 .ultimos-gastos .descricao-transacao {
   font-size: 0.9em;
-}
+} */
 
 /* Media Query */
 
