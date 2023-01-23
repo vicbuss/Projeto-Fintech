@@ -236,6 +236,7 @@ footer {
 
 .data-transacao {
   color: #325165;
+  font-size: 1em;
 }
 
 .fonte-transacoes {
@@ -254,19 +255,25 @@ footer {
 
 @media only screen and (min-width:1150px) {
 
-.aside {
-  width: 18%;
-}
+  .aside {
+    width: 18%;
+  }
 
-.menu-aside li {
-  font-size: 1.2em;
-}
+  .menu-aside li {
+    font-size: 1.2em;
+  }
 
-.botao-adicionar-aside {
-  font-size: 1.1em;
-  width: 8em;
+  .botao-adicionar-aside {
+    font-size: 1.1em;
+    width: 8em;
 
-}
+  }
+
+  /* Gastos */
+
+  .fonte-transacoes {
+    font-size: 1em;
+  }
 
 }
 
