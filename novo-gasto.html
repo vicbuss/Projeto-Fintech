@@ -116,7 +116,32 @@
 					</div>
 					<!--Conteúdo Principal-->
                     <div class="col-md-10 tela-principal">
-                        
+                        <h1 class="titulo-sessao-desktop">Novo Gasto</h1>
+                        <div class="shadow-lg mb-5 p-3 bg-white rounded">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="inserir-gasto-valor" class="form-label">Valor Gasto</label>
+                                    <input type="number" id="inserir-gasto-valor" name="inserir-gasto-valor" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inserir-gasto-data" class="form-label">Data</label>
+                                    <input type="date" id="inserir-gasto-data" name="inserir-gasto-data" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inserir-gasto-categoria" class="form-label">Categoria</label>
+                                    <select class="form-select inserir-gasto-categoria" aria-label="Seleção de categoria">
+                                        <option selected>Escolha a categoria</option>
+                                        <option value="1">Transporte</option>
+                                        <option value="2">Alimentação</option>
+                                        <option value="3">Outro</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inserir-gasto-descricao" class="form-label">Descrição</label>
+                                    <input type="text" id="inserir-gasto-descricao" name="inserir-gasto-descricao" class="form-control">
+                                </div>
+                            </form>
+                        </div>
 						<!-- Quebra de fim de página -->
 						<br><br>
                     </div>
